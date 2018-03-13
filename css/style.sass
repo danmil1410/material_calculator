@@ -99,12 +99,13 @@ h1
   display: flex
   align-items: center
   justify-content: center
+  font-size: 28px
   background: $light
 
 .keyboard
   grid-row: 2/3
   display: grid
-  grid-template: repeat(5, 1fr) / repeat(4, 1fr)
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr)
 
 .button
   position: relative
@@ -147,10 +148,6 @@ h1
 
   &:focus:after
     visibility: visible
-
-.button__expanded
-  grid-column: 4/5
-  grid-row: 4/6
 
 #test
   height: 50px
